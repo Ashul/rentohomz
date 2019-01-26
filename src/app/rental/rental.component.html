@@ -1,0 +1,8 @@
+<div class="container">
+  <h3 style="margin:10px; text-align:center">Your Home All Around The World</h3>
+  <div class="row no-gutters">
+    <div class="col-md-3"  *ngFor="let rental of rentals">
+        <app-rental-list [rental]="rental"></app-rental-list>
+    </div>
+  </div>
+</div>
